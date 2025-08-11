@@ -25,6 +25,7 @@ Uso
 Respaldos programados:
 CREATE EVENT backup_event ON SCHEDULE EVERY 3 DAY DO
 -- Código de respaldo
+
 Monitoreo:
 ANALYZE TABLE registros;
 
